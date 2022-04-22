@@ -1,6 +1,6 @@
 namespace SalesDataAnalyzer
 {
-    enum SalesBranch {
+    public enum SalesBranch {
         A,
         B,
         C,
@@ -10,21 +10,21 @@ namespace SalesDataAnalyzer
         G
     }
     
-    enum CustType {
+    public enum CustType {
         Normal,
         Member,
         Unregistered,
         Banned
     }
 
-    enum GenderType {
+    public enum GenderType {
         Male,
         Female,
         Nonbinary,
         Other
     }
 
-    enum PaymentType {
+    public enum PaymentType {
         Ewallet,
         Cash,
         Credit_card,

@@ -1,6 +1,4 @@
 Invoice ID,Branch,City,Customer type,Gender,Product line,Unit price,Quantity,Date,Payment,Rating
-750-67-8428,A,Yangon,Member,Female,Health and beauty,74.69,7,1/5/19,Ewallet,ABC
-750-67-8428,A,Yangon,Member,Female,Health and beauty,74.a69,7,1/5/19,Ewallet,9.1
 750-67-8428,A,Yangon,Member,Female,Health and beauty,74.69,7,1/5/19,Ewallet,9.1
 226-31-3081,C,Naypyitaw,Normal,Female,Electronic accessories,15.28,5,3/8/19,Cash,9.6
 631-41-3108,A,Yangon,Normal,Male,Home and lifestyle,46.33,7,3/3/19,Credit card,7.4

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Text;
 
 namespace SalesDataAnalyzer
 {
@@ -36,18 +37,14 @@ namespace SalesDataAnalyzer
 
 
             // create report
-                // create stringbuilder
-                // call all 12 q's
-                // output all 12 q's into individual formatted strings
-                // add all 12 formatted strings to sb object
+            Report.generateReport(salesData, reportFile);
 
-                // open/create file to write
-                // write sb object to file
-
-            foreach(salesDataStruct data in salesData) {
-                Console.WriteLine($"{ data.ToString() }");
-            }
+            // foreach(salesDataStruct data in salesData) {
+            //     Console.WriteLine($"{ data.ToString() }");
+            // }
 
         }
+
+        
     }
 }

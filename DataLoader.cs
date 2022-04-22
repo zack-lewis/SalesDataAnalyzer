@@ -32,11 +32,11 @@ namespace SalesDataAnalyzer
                         sd.CustomerType = Enum.Parse<CustType>(lineSD[3]);
                         sd.Gender = Enum.Parse<GenderType>(lineSD[4]);
                         sd.ProductLine = lineSD[5];
-                        sd.UnitPrice = Single.Parse(lineSD[6]);
+                        sd.UnitPrice = Decimal.Parse(lineSD[6]);
                         sd.Quantity = Int32.Parse(lineSD[7]);
                         sd.Date = DateTime.Parse(lineSD[8]);
                         sd.Payment = lineSD[9];
-                        sd.Rating = Single.Parse(lineSD[10]);
+                        sd.Rating = Decimal.Parse(lineSD[10]);
 
 
                         output.Add(sd);
